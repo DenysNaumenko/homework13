@@ -1,0 +1,44 @@
+.block8{
+    background: #DABC98;
+}
+
+.brown{
+    width: calc(100%/1);
+
+    display:flex;
+    justify-content: space-between;
+    padding-top: 116px;
+    padding-bottom: 116px;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+
+    @media  (min-width:768px) {
+        width: 100%;  }
+      
+}
+
+
+.cake{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 67px;
+
+   
+
+h3{
+    font-size: 35px;
+    line-height: 50px;
+}}
+
+.rate{
+    display:flex ;
+    border-left: 1px solid black ;
+    padding-left: 60px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    
+}

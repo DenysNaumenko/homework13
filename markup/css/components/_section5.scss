@@ -1,0 +1,49 @@
+.block5{
+    background: #FFF8E4;   
+}
+.what{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 120px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #FFF8E4;
+    padding-bottom: 75px;
+
+
+
+.contacts{
+    width: calc(100%/1);
+    text-align: center;
+    padding-bottom: 75px;
+    font-family: 'Graphik LCG' ;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    
+    
+    @media  (min-width:768px) {
+    width: calc(100%/2);   
+
+
+ }
+ @media  (min-width:992px) {
+    width: calc(100%/3);  }
+
+h3{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+a{
+    color: #000000;
+}}}

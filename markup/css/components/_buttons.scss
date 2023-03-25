@@ -1,0 +1,28 @@
+.btn{
+    display: flex;
+
+    &__sm{
+    width: 120px;
+    height: 45px;
+
+ &--white{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    background: white;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 45px;
+}
+
+&--orange{
+    background: #FF6336;
+    color: #FFFFFF;
+    border: 0;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 45px;
+}
+}
+}

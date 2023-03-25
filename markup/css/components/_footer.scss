@@ -1,0 +1,158 @@
+.block11{
+    background: #EEEEEE;
+   
+        // padding: 0 calc(50% - 700px);
+      
+}
+
+.topfooter{
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items:baseline; 
+    padding-top: 92px;
+    padding-bottom: 92px;
+    justify-content: space-around;
+    margin-right: 50%;
+  @media  (min-width:768px) {
+            width: 100%; 
+             flex-wrap: wrap;}
+
+            // @media  (min-width:992px) {
+            //     width: 100%/2;
+                
+            //      }
+        
+    
+.casestudies{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    justify-content: space-between;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+  
+    
+h3{
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.read{
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: #000000;
+}}
+
+.section{
+   
+    margin-left: 20px;
+  
+  display: flex;
+//   max-width: 100%;
+  flex-wrap: wrap;   
+//   @media  (min-width:315px) {
+   
+    
+//     flex-direction: column;
+//    }   
+  
+  @media  (min-width:576px) {
+   
+   margin-left: 20px;
+    flex-direction: column;
+   }   
+  
+  @media  (min-width:768px) {
+   
+     flex-direction: column;
+}       
+
+@media  (min-width:992px) {
+   
+    flex-wrap: nowrap;
+    flex-direction: row;
+}   }    
+        
+
+nav { 
+    
+
+h4 {
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+   
+}
+
+
+ .menu1{
+    margin: 0px;
+    padding: 0px;
+   padding-right: 100px;
+   
+       
+       
+
+li{
+    list-style:none;
+    padding-bottom: 15px;   
+}
+
+ a{
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+}}}
+
+
+
+.theend{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    
+   
+    .lokal{
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+
+    span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}}
+
+.endfooter{
+    background: #EEEEEE;
+    
+}
+
+
+// .section{
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     @media  (min-width:768px) {
+//         width: calc(100%/2);  }
+//     }

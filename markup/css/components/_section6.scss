@@ -1,0 +1,49 @@
+
+
+.boost{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
+    text-align:center;
+    padding-top: 154px;
+    margin-top:0 ;
+}
+
+.mdt{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 187px;  
+    flex-wrap: wrap;
+.team{
+    width: calc(100%/1);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    @media  (min-width:768px) {
+        width: calc(100%/1);   
+        
+    
+    
+     }
+     @media  (min-width:992px) {
+        width: calc(100%/3);  }
+       
+    
+}
+
+ a{
+    color: #000000;
+}
+
+
+
+
+ h3{
+    padding-bottom: 34px;
+    padding-top: 50px; 
+    font-size: 30px; 
+}}
